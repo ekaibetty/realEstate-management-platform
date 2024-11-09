@@ -15,8 +15,10 @@ A comprehensive Internet Computer canister for managing real estate properties, 
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd 
+git https://github.com/ekaibetty/realEstate-management-platform.git
+
+cd realEstate-management-platform
+
 ```
 
 2. Install dependencies
