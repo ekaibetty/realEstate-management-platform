@@ -33,7 +33,9 @@ dfx stop && dfx start --background --clean
 
 4. Deploy the canister
 ```json
+
 dfx deploy
+
 ```
 
 ## API Reference
@@ -52,7 +54,7 @@ Sample payload:
   "valuation": 500000.00,
   "status": "available",
   "square_footage": 2000.0,
-  "bedrooms": 3n,
+  "bedrooms": 3,
   "bathrooms": 2.5,
   "amenities": ["garage", "pool"],
   "images": ["image1.jpg", "image2.jpg"],
@@ -88,7 +90,7 @@ Sample payload:
   "phone": "555-0123",
   "emergency_contact": "555-4567",
   "background_check_status": "passed",
-  "credit_score": 750n,
+  "credit_score": 750,
   "rental_history": [{
     "previous_address": "456 Oak Ave",
     "landlord_contact": "555-8901",
